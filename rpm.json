@@ -1,0 +1,7 @@
+{
+  "publish": {
+    "PACKAGE": "zellij",
+    "GH_USER": "jc21-rpm",
+    "VERSION": "0.42.2"
+  }
+}
