@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:           zellij
-Version:        0.44.2
+Version:        0.44.3
 Release:        1%{?dist}
 Summary:        A terminal workspace with batteries included
 Group:          Applications/System
@@ -35,6 +35,9 @@ rm -rf %{buildroot}
 /usr/bin/%{name}
 
 %changelog
+* Thu May 14 2026 Jamie Curnow <jc@jc21.com> - 0.44.3-1
+- https://github.com/zellij-org/zellij/releases/tag/v0.44.3
+
 * Tue May 5 2026 Jamie Curnow <jc@jc21.com> - 0.44.2-1
 - https://github.com/zellij-org/zellij/releases/tag/v0.44.2
 
